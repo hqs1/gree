@@ -15,16 +15,9 @@
 #include <Blinker.h>
 #include <modules/dht/DHT.h>
 
-char auth[] = "ea4d6a9782ff"; //APP key
-//
-// char ssid[] = "MI";   //WiFi 名字
-// char pswd[] = "13450375499";             //密码
-
-char ssid[] = "Xiaomi_WB";        //WiFi 名字
-char pswd[] = "13450375499"; //密码
-
-//char ssid[] = "Mi6";   //WiFi 名字
-//char pswd[] = "2277375994";             //密码
+char auth[] = ""; //APP key
+char ssid[] = "";        //WiFi 名字
+char pswd[] = ""; //密码
 
 int nowtemp = 26; //用于暂存温度数据
 int num_mode = 1; //用于暂存模式数据
